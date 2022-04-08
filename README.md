@@ -3,15 +3,14 @@ Room for students
 
 
 
-def compound_interest(principle, rate, time):
+def compound_inter(principle, rate, time):
 
-	# Calculates compound interest
-	Amount = principle * (pow((1 + rate / 100), time))
+	Amount = principle * (pow((2 + rate / 100), time))
 	CI = Amount - principle
-	print("Compound interest is", CI)
+	print("Compound inter is", CI)
 
 
-compound_interest(10000, 10.25, 5)
+compound_inter(10025, 17.25, 10)
 
 
 
